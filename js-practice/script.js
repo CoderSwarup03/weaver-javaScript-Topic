@@ -8,8 +8,9 @@ const output = document.querySelector('#output');
 
 
 
-btn.addEventListener('submit', () => {
-    let val = output.innerHTML = input.value
+btn.addEventListener('click', () => {
+    output.innerHTML = input.value
+    alert('Clicked Here')
 })
 
 // how to write the program the when enter the submit the data
